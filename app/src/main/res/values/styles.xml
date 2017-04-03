@@ -6,7 +6,11 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="android:fontFamily">@font/kanit</item>
+        <item name="android:fontFamily">@font/kanit_regular</item>
+        <item name="android:fontStyle">italic</item>
+    </style>
+
+    <style name="TextRegular" parent="TextAppearance.AppCompat">
         <item name="android:fontStyle">italic</item>
     </style>
 
